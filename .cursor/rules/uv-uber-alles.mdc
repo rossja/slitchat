@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+1. Use uv for package management and depencencies.
+2. Use a venv to ensure the correct python environment
+3. only use the pyproject.toml file - DO NOT USE requirements.txt
+4. create the application so it can be quickly initialized using `uv sync`
+5. take advantage of modern features offered by uv
